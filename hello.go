@@ -8,4 +8,5 @@ func main() {
 	b[2] = 5
 	fmt.Print(a)
 	fmt.Print(b)
+	fmt.Print("hello")
 }
