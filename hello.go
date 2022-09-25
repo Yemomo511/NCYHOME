@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("hello world")
-	for i := 0; i < 10; i++ {
-
-	}
-
+	var a = [5]int{1, 2, 3, 4, 5}
+	var b = a
+	b[2] = 5
+	fmt.Print(a)
+	fmt.Print(b)
 }
