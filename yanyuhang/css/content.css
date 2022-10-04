@@ -1,0 +1,123 @@
+.content{
+    padding:10px 20px 50px 20px;
+    max-width: 500px;
+    margin-bottom:1px dashed black;
+    
+}
+
+.container_content{
+    display:flex;
+    width:500px;
+    flex-flow:column wrap;
+}
+/*用户信息*/
+.user_information{
+    display:flex;
+    max-width: 500px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.content_img{
+    width:50px;
+    height:50px;
+    border-radius: 100px;
+}
+.user{
+    margin:0 5px auto 10px;
+    width: 390px;
+}
+.username{
+    font-size: large;
+}
+.time{
+    position: absolute;
+    right:5px;
+    font-size: 15px;
+    justify-self: flex-end;
+    text-align: center;
+}
+.college{
+    font-size:9px;
+    color:rgb(180,180,180);
+}
+/*-------*/
+.container_share{
+    margin-left:50px;
+}
+.share_content{
+    padding:0px 10px 10px;
+    margin-left:-10px;
+}
+.share_img{
+    display: inline;
+}
+/*----*/
+.bottom{
+    float: left;
+    width: 490px;
+}
+.container_tag{
+    margin-left:50px;
+    height:30px;
+    background-color:rgb(240,240,240);
+    border-radius:20px;
+    display: inline-flex;
+    float: left;
+    width:auto
+}
+.tag{
+    width:30px;
+    height:30px;
+    border-radius: 100px;
+    
+}
+#tag1{
+    background-color:lightblue;
+}
+.tag_content{
+    margin-top: 5px;
+    padding:0px 10px;
+}
+.container_interact{
+    overflow: hidden;
+}
+.interact{
+    margin:10px;
+    width:30px;
+    height:30px;
+    float:right;
+    position: relative;
+    right:10px;
+}
+.Thanks{
+    margin:10px;
+    height:30px;
+    float:right;
+    text-align: center;
+    line-height: 30px;
+}
+/*------*/
+#me{
+    width:150px;
+    height:200px;
+}
+#eating{
+    width: 200px;
+    height:150px;
+}
+.container_return{ 
+    width:70px;
+    height:70px;
+    position: absolute;
+    left: 430px;
+}
+.return_img{
+    width:75px;
+    height:75px;
+    position:fixed;
+    bottom: 0;
+}
+#encourage1{
+    background-image:url("img/喜欢_click.png");
+}

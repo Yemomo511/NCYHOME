@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="yemomo">
+    <title>研发组第二次作业</title>
+    <link href="img/favicon.ico" rel="icon"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/content.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="container_all">
+            <form class="container_input">
+                <label>
+                    <input type="search" placeholder="发现习惯" class="search" id="search" onclick="input_onclick()">
+                    <img src="img/search.png" class="search_png" id="search_left">
+                    <img src="img/plus.png" class="search_png" id="search_right">
+                </label>
+            </form>
+            <div class="container_nav">
+                <input class="button_nav" value="关注" id="focus" type="button">
+                <input class="button_nav" value="最新" id="new" type="button">
+            </div>
+            <div class="container_content">
+
+                <div class="content" id="first">
+
+                    <div class="user_information">
+                        <img src="img/head1.JPG" class="content_img">
+                        <p class="user">
+                            <span class="username">叶墨沫</span><span class="time">1小时前</span>
+                            <br>
+                            <span class="college">软件学院</span>
+                        </p>
+                    </div>
+
+                    <div class="container_share">
+                        <p class="share_content">《关于国庆只有我一个人在寝室这件惨事》</p>
+                        <img src="img/content1.JPG" class="share_img">
+                    </div>
+                    <div class="bottom">
+                        <div class="container_tag">
+                            <img class="tag" id="tag1" src="img/tag1-lighting.png">
+                            <p class="tag_content"><b>今天也要加吧劲哟!</b></p>
+                        </div>
+                        <div class="container_interact">
+                            <img src="img/评论_comment.png" class="interact" id="mark1">
+                            <img src="img/喜欢_like.png" class="interact" id="encourage1" onclick="like_onclick()"> 
+                            <p class="Thanks" id="Thank1"></p> 
+                        </div>
+                    </div>
+                </div> 
+
+                <div class="content" id="second">
+                    <div class="user_information">
+                        <img src="img/head2.JPG" class="content_img">
+                        <p class="user">
+                            <span class="username">ஐ小叶</span><span class="time">20秒前</span>
+                            <br>
+                            <span class="college">软件学院</span>
+                        </p>
+                    </div>
+
+                    <div class="container_share">
+                        <p class="share_content">八一广场国庆游玩中ing~</p>
+                        <img src="img/me.JPG" class="share_img" id="me">
+                        <img src="img/eating.JPG" class="share_img" id="eating">
+                    </div>
+                    <div class="bottom">
+                        <div class="container_tag">
+                            <img class="tag" id="tag2" src="img/烹饪_cooking.png">
+                            <p class="tag_content"><b>国庆游玩好累啊~</b></p>
+                        </div>
+                        <div class="container_interact">
+                            <img src="img/评论_comment.png" class="interact" id="mark2">
+                            <img src="img/喜欢_like.png" class="interact" id="encourage2" onclick="like_onclick2()">
+                            <p class="Thanks" id="Thank2"></p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="container_return">
+            <img src="img/上-箭头_arrow-circle-up.svg" class="return_img" id="return_img" onclick="returnTop()">
+        </div>
+    </div>
+
+</body>
+</html>
