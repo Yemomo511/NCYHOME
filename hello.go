@@ -10,3 +10,5 @@ func main() {
 	fmt.Print(b)
 	fmt.Print("hello")
 }
+func A{fmt. Print(a)
+}
